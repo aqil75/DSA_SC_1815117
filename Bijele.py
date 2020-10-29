@@ -1,0 +1,8 @@
+chess = input().split()
+king = 1-int(chess[0])
+queen = 1-int(chess[1])
+rook = 2-int(chess[2])
+bishop = 2-int(chess[3])
+knight = 2-int(chess[4])
+pawn = 8-int(chess[5])
+print(king,queen,rook,bishop,knight,pawn)
